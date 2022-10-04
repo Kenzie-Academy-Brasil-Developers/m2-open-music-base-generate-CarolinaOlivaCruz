@@ -1,1 +1,60 @@
-/* Desenvolva sua estilização aqui ... */
+body {
+    background-color: var(--color-white-fixed);
+    color: var(--color-grey-1);
+}
+
+header {
+    width: 100%;
+    padding: 40px;
+}
+
+.div-header{
+    width: 641px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    width: 641px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.ul-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.category-list{
+    list-style-type: none;
+}
+
+.p-categoria {
+    font-weight: bold;
+}
+
+.div-title-value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-value {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

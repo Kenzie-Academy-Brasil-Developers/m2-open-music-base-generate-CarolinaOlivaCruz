@@ -1,0 +1,45 @@
+.ul-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-list {
+    height: 259px;
+    list-style-type: none;
+    background-color: var(--color-grey-8);
+}
+
+.card-list img {
+    width: 308px;
+}
+
+.div-date {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-band {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.div-price {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-price button {
+    border: none;
+    border-radius: var(--radius-1);
+    padding: 10px 15px;
+    background-color: var(--color-grey-7);
+}

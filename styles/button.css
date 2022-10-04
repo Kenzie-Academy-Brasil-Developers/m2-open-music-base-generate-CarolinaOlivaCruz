@@ -1,0 +1,14 @@
+.button-dark {
+    padding: 10px 15px;
+    border-radius: var(--radius-1);
+    border: none;
+}
+
+.button-category {
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--radius-1);
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-2);
+}
+
