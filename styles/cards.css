@@ -10,10 +10,12 @@
     height: 259px;
     list-style-type: none;
     background-color: var(--color-grey-8);
+    border-radius: var(--radius-1)
 }
 
 .card-list img {
     width: 308px;
+    border-radius: var(--radius-1) var(--radius-1) 0 0;
 }
 
 .div-date {
@@ -21,6 +23,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-radius: ;
 }
 
 .div-band {
