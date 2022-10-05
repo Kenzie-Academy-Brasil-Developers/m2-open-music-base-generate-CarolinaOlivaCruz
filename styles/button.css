@@ -12,3 +12,6 @@
     color: var(--color-grey-2);
 }
 
+.filter-price {
+    width: 100%;
+}

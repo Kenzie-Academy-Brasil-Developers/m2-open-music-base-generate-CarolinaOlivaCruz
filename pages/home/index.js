@@ -1,22 +1,14 @@
 function createButtonCategory(array) {
-    const ul = document.getElementById('ulButtons')
+    const div = document.getElementById('ulButtons')
 
-    array.forEach(element => {
-        const li = document.createElement('li')
-        li.className = 'category-list'
-
+    array.forEach((element, index) => {
         const buttonCategory = document.createElement('button')
         buttonCategory.className = 'button-category'
+        buttonCategory.id = index
         buttonCategory.type = 'submit'
-
-        const p = document.createElement('p')
-        p.className = 'p-categoria'
-        p.innerText = element
-
-
-        buttonCategory.append(p)
-        li.append(buttonCategory)
-        ul.append(li)
+        buttonCategory.innerText = element
+        
+        div.append(buttonCategory)
     })
 }
 createButtonCategory(categories)
@@ -26,6 +18,7 @@ createButtonCategory(categories)
 
 function createCards(array){
     const ul = document.getElementById('ulCards')
+    ul.innerText = ''
 
     array.forEach(element => {
         
@@ -66,3 +59,12 @@ function createCards(array){
 }
 
 createCards(products)
+
+
+
+const input = document.getElementById('filterPrice')
+const span = document.getElementById('filterPriceText')
+
+input.addEventListener('input', () =>{
+    span.innerText = input.value
+})
